@@ -8,7 +8,7 @@ https://nlp100.github.io/ja/
 水曜午後(13:20-14:50)にM2とD2で解説と質問受付タイムを設けるのでご活用くださいー🤗
 
 # command
+(git status)  
 git add hoge.py  
-git commit -m "hoge commit"  
-git branch -M main  
+git commit -m "hoge commit"    
 git push -u origin main  
