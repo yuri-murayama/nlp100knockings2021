@@ -1,0 +1,15 @@
+s1 = "paraparaparadise"
+s2 = "paragraph"
+
+list1 = []
+list2 = []
+
+for i in range(0,len(s1)-1):
+    list1.append(s1[i:i+1])
+
+for j in ranfe(0,len(s2)-1):
+    list2.append(s1[i:i+1])
+
+
+print(list1)
+print(list2)

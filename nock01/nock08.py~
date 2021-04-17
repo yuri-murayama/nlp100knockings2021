@@ -1,0 +1,16 @@
+def cipher(s):
+    for x in s:
+        if x.islower():
+            x = chr(219 - ord(x))
+        else:
+            x = x
+
+    return s
+
+def main():
+    s = str(input("文字列を入力"))
+
+    cipher(s)
+
+if __name__ == '__main__':
+	main()
