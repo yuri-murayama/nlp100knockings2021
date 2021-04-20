@@ -1,0 +1,20 @@
+# 06_集合
+
+def n_gram(n,target):
+    result = []
+    for i in range(0, len(target) - n + 1):
+        result.append(target[i:i + n])
+
+    return result
+
+
+X = n_gram(2, "paraparaparadise")
+Y = n_gram(2, "paragraph")
+
+print("和集合: ", X | Y)
+print("積集合: ", X & Y)
+print("差集合(X-Y): ", X - Y)
+print("差集合(Y-X): ", Y - X)
+
+print("\'se\' in X: ", "se" in X)
+print("\'se\' in Y: ", "se" in Y)
