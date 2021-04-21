@@ -9,3 +9,5 @@ if __name__=="__main__":
 
     print("単語bi-gram：",n_gram_generator(sentence.split(), 2))
     print("文字bi-gram：",n_gram_generator(sentence, 2))
+#単語bi-gram： [['I', 'am'], ['am', 'an'], ['an', 'NLPer']]
+#文字bi-gram： ['I ', ' a', 'am', 'm ', ' a', 'an', 'n ', ' N', 'NL', 'LP', 'Pe', 'er']
