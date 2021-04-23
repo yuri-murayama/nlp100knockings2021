@@ -136,3 +136,9 @@ dmypy.json
 
 # Cython debug symbols
 cython_debug/
+
+# added by iwai
+.DS_Store
+ex06/NewsAggregatorDataset
+model.sav
+*.txt
