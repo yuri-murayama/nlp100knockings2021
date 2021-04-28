@@ -14,3 +14,20 @@ git checkout name　ブランチ移動
 git add hoge.py  
 git commit -m "hoge commit"    
 git push origin name  
+
+# 日程
+## 4月
+- 14：オリエンテーション
+- 21：第1章
+- 28：第6章 50〜55
+
+## 5月
+- 12
+- 19
+- 26
+
+## 6月
+- 2
+- 16
+- 23
+- 30
