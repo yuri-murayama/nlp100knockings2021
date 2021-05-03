@@ -7,10 +7,7 @@ https://nlp100.github.io/ja/
 空いた時間に各自解いて、このリポジトリにコードをあげてもらう形式で進めていこうと思います  
 水曜午後(13:20-14:50)にM2とD2で解説と質問受付タイムを設けるのでご活用くださいー🤗
 
-# command
-git checkout name　ブランチ移動  
-(git branch　ブランチ確認)  
-(git status)  
-git add hoge.py  
-git commit -m "hoge commit"    
-git push origin name  
+# スケジュール
+- 4/21　00-09
+- 4/28　50-55
+- 5/12　56-59
