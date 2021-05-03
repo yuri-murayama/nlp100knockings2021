@@ -15,3 +15,12 @@ print("差集合(X-Y)：", X - Y)
 print("差集合(Y-X)：", Y - X)
 print("対称差集合：", X ^ Y)
 print("seがXおよびYに含まれるか：","se" in (X or Y))
+
+"""
+和集合： {'ar', 'di', 'is', 'pa', 'se', 'ph', 'ag', 'ad', 'gr', 'ap', 'ra'}
+積集合： {'pa', 'ra', 'ap', 'ar'}
+差集合(X-Y)： {'se', 'ad', 'di', 'is'}
+差集合(Y-X)： {'ag', 'ph', 'gr'}
+対称差集合： {'ad', 'gr', 'di', 'is', 'ph', 'se', 'ag'}
+seがXおよびYに含まれるか： True
+"""
