@@ -140,5 +140,5 @@ cython_debug/
 # added by iwai
 .DS_Store
 ex06/NewsAggregatorDataset
+ex06/data
 model.sav
-*.txt
