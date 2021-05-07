@@ -1,5 +1,0 @@
-s="stressed"
-
-sr=reverse(s)
-
-print(sr)
