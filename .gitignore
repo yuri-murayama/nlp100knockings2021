@@ -142,3 +142,4 @@ cython_debug/
 ex06/NewsAggregatorDataset
 ex06/data
 model.sav
+ex07/data
