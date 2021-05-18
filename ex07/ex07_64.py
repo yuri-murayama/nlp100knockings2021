@@ -11,3 +11,5 @@ with open('./data/questions-words.txt') as rf:
             vec = wvs[words[1]] - wvs[words[0]] + wvs[words[2]]
             sim = wvs.similar_by_vector(vec,topn=1)
             wf.write(l+' '+str(sim[0][0])+' '+str(sim[0][1])+'\n')
+        elif not l:
+            break
