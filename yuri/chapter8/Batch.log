@@ -1,0 +1,36 @@
+/opt/conda/lib/python3.7/site-packages/hydra/core/utils.py:207: UserWarning: 
+Using config_path to specify the config name is deprecated, specify the config name via config_name
+See https://hydra.cc/docs/next/upgrades/0.11_to_1.0/config_path_changes
+  warnings.warn(category=UserWarning, message=msg)
+[2021-06-11 13:43:09,062][HYDRA] Launching 10 jobs locally
+[2021-06-11 13:43:09,062][HYDRA] 	#0 : num_epochs=1 batch_size=1
+2021-06-11 13:43:11.875702: I tensorflow/stream_executor/platform/default/dso_loader.cc:53] Successfully opened dynamic library libcudart.so.11.0
+Epoch:1, Train loss:0.3660, Time:7.244414567947388s
+Accuracy/Test  0.8889722430607652
+[2021-06-11 13:43:20,421][HYDRA] 	#1 : num_epochs=1 batch_size=2
+Epoch:1, Train loss:0.3355, Time:4.091186285018921s
+Accuracy/Test  0.9024756189047262
+[2021-06-11 13:43:25,498][HYDRA] 	#2 : num_epochs=1 batch_size=4
+Epoch:1, Train loss:0.3502, Time:2.1873037815093994s
+Accuracy/Test  0.9024756189047262
+[2021-06-11 13:43:28,657][HYDRA] 	#3 : num_epochs=1 batch_size=8
+Epoch:1, Train loss:0.3837, Time:1.1492846012115479s
+Accuracy/Test  0.8889722430607652
+[2021-06-11 13:43:30,787][HYDRA] 	#4 : num_epochs=1 batch_size=16
+Epoch:1, Train loss:0.4429, Time:0.5921974182128906s
+Accuracy/Test  0.8934733683420856
+[2021-06-11 13:43:32,342][HYDRA] 	#5 : num_epochs=1 batch_size=32
+Epoch:1, Train loss:0.5240, Time:0.2834780216217041s
+Accuracy/Test  0.8754688672168042
+[2021-06-11 13:43:33,577][HYDRA] 	#6 : num_epochs=1 batch_size=64
+Epoch:1, Train loss:0.6349, Time:0.20302724838256836s
+Accuracy/Test  0.8469617404351087
+[2021-06-11 13:43:34,734][HYDRA] 	#7 : num_epochs=1 batch_size=128
+Epoch:1, Train loss:0.7736, Time:0.1849353313446045s
+Accuracy/Test  0.795198799699925
+[2021-06-11 13:43:35,979][HYDRA] 	#8 : num_epochs=1 batch_size=256
+Epoch:1, Train loss:0.9303, Time:0.16068172454833984s
+Accuracy/Test  0.7741935483870968
+[2021-06-11 13:43:37,111][HYDRA] 	#9 : num_epochs=1 batch_size=512
+Epoch:1, Train loss:1.0975, Time:0.15828895568847656s
+Accuracy/Test  0.7741935483870968
