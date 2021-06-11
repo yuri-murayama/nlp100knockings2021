@@ -1,0 +1,4 @@
+num_epochs: 100
+batch_size: 32
+evaluation_batch_size: 32
+model: SLNN
